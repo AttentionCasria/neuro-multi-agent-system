@@ -1,3 +1,29 @@
-# 忽略所有 maven 编译输出目录
-**/target/
-*.jar
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Maven
+target/
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.env
+
+# macOS
+.DS_Store
+
+# Backup build artifacts
+frontend/(backup01)dist/
+
+# Claude Code memory (local tool, not project code)
+memory/
+
+# frontend
+node_modules/
+
+# Java 编译产物
+*.class
