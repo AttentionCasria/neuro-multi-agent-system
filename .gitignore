@@ -1,3 +1,4 @@
+@@ -1,32 +0,0 @@
 # IntelliJ IDEA
 .idea/
 *.iml
@@ -27,3 +28,6 @@ node_modules/
 
 # Java 编译产物
 *.class
+
+# 本地文档（不入库）
+流式输出架构改进方案.md
